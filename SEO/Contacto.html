@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <meta name="description" content="Contáctanos">
+    <meta name="keywords" content="contacto, correo electrónico, número de teléfono">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="archivos.css"/>
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">
+            <img class="logo" src="ArchivosMultimedia/Emp.SanBernardoS.A..svg" alt="logo" height="100px" width="100px">
+        </a>
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Servicios.html">Servicios</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Fotos.html">Fotos</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+<section>
+<h1 class="h1">Contacto</h1>
+<div class="parrafo">
+<!-- Inicio del formulario -->
+    <p>Contactanos al +54 (3483-419117)</p>
+    <h3>Envianos un mail</h3>
+    <form id="cuestionario" action="enviar.php" method="post">
+    <label for="nombre">Nombre y apellido</label>
+    <input type="text" name="Nombre">
+    <br>
+    <label for="género">Género</label>
+    <select name="genero">
+        <option value="femenino">Femenino</option>
+        <option value="masculino">Masculino</option>
+        <option value="otro">Otro</option>
+    </select> <br>
+    <label for="correo electrónico">Correo electónico</label>
+    <input type="email" name="Correo electrónico" placeholder="nombre@gmail.com"> 
+    <br>
+    <label for="teléfono">Teléfono</label>
+    <input type="text" name="Teléfono">
+    <br>
+    <label for="Asunto">Asunto del correo</label>
+    <input type="text" name="Asunto">
+    <br>
+    <label for="Mensaje">Mensaje</label> <br>
+    <textarea name="Mensaje" cols="40" rows="15" placeholder="Escriba aqui su mensaje"></textarea> <br>
+    <label for="info promocional">Quiero recibir información promocional</label>
+    <input type="checkbox" name="info promocional"> <br>
+    <label for="newsletter">Quiero suscribirme al Newsletter</label>
+    <input type="checkbox" name="newsletter"> <br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+</form>
+</div>
+</section>
+<footer class="contenedorfooter bg-dark">
+  <span class="footer1">Tel: 3483419117</span>
+                <span class="footer2">Seguinos en redes:</span>
+                <span class="footer4">
+                  <ul>
+                    <li><a href="https://www.instagram.com/valentina_tezza/?hl=es-la"><img src="ArchivosMultimedia/Instagram_logo_2016.svg.png" width="40px"></a></li>
+                    <li><a href="https://www.facebook.com/valentina.tezza.9/"><img src="ArchivosMultimedia/Facebook_icon_2013.svg.png" width="40px"></a></li>
+                    <li><a href="https://twitter.com/valen_tezza"><img src="ArchivosMultimedia/Twitter-logo.svg.png" width="40px"></a></li>
+                  </ul>
+                </span>
+                <span class="footer3">! Derechos de copyright</span>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</body>
+</html>
